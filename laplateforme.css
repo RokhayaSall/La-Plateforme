@@ -389,6 +389,7 @@ form textarea {
 @media screen and (max-width: 991px) {
     .row {
         flex-direction: column;
+        row-gap: 5px;
     }
 
     nav ul {
@@ -419,7 +420,7 @@ form textarea {
     .logo-center {
         position: static;
         transform: none;
-        margin: 20px auto;
+        margin: 5px;
     }
 
     .responsive {
@@ -428,5 +429,25 @@ form textarea {
 
     .footer {
         align-items: center;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    .logo-center img {
+        height: 40px;
+    }
+
+    .nav-left {
+        gap: 5px;
+    }
+
+    .nav-right {
+        gap: 5px;
     }
 }
