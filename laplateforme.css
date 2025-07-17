@@ -82,6 +82,14 @@ body {
     width: 25%;
 }
 
+.w-40 {
+    width: 40%;
+}
+
+.p-25 {
+    padding: 25px;
+}
+
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -383,6 +391,23 @@ form textarea {
 
 form textarea {
     min-height: 120px;
+}
+
+.container-mission {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 10px;
+}
+
+.section-title-m {
+    margin: 25px;
+    text-align: center;
+}
+
+.mission {
+    text-align: center;
+    margin: 20px;
 }
 
 /* === RESPONSIVE === */
