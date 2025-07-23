@@ -13,7 +13,35 @@
     <header>
         <div class="container">
             <div class="row align-center flex-between header-bar">
-                <nav class="row w-100 align-center header-nav">
+
+                <!-- NAVIGATION MOBILE -->
+                <div class="logo-burger">
+                    <img src="images/logo-2.jpg" alt="Logo La Plateforme">
+                </div>
+
+                <input id="burger" type="checkbox" />
+
+                <label for="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <nav class="nav-mobile">
+                    <ul>
+                        <li><a href="accueil.html">Accueil</a></li>
+                        <li><a href="qui-sommes-nous.html">Qui sommes nous</a></li>
+                        <li><a href="coding-school.html">Coding School</a></li>
+                        <li><a href="ai-school.html">AI School</a></li>
+                        <li><a href="cyber-security-school.html">Cyber Security School</a></li>
+                        <li><a href="executive-education.html">Executive Education</a></li>
+                        <li><a href="Innovation-Lab.html">Innovation Lab</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+
+                <nav class="row w-100 align-center header-nav r-g-5">
                     <ul class="nav-left row">
                         <li><a href="accueil.html">ACCUEIL</a></li>
                         <li><a href="qui-sommes-nous.html">QUI SOMMES NOUS</a></li>
@@ -38,6 +66,7 @@
             </div>
         </div>
     </header>
+
 
     <!-- CONTENU PRINCIPAL -->
     <main>
@@ -99,8 +128,10 @@
                             <textarea id="message" name="message" rows="6" required></textarea>
                         </div>
                     </div>
+                    <div class="bouton p-25">
+                        <button type="submit" class="btn-primary">Envoyer le message</button>
+                    </div>
 
-                    <button type="submit" class="btn-primary">Envoyer le message</button>
                 </form>
 
                 <div class="contact-info mt-5">
@@ -116,33 +147,34 @@
     <footer>
         <div class="container">
             <div class="row flex-between align-start footer">
-                <div class="w-40">
-                    <h2>Une question ?</h2>
+                <div class="w-50 w-70 text-center">
+                    <h2>Une question ? Un renseignement ?</h2>
                     <form>
-                        <input type="text" name="nom" placeholder="Nom" class="w-100 mb-3" required>
-                        <input type="text" name="prenom" placeholder="Prénom" class="w-100 mb-3" required>
-                        <textarea name="message" placeholder="Message" class="w-100 mb-3" required></textarea>
+                        <div class="row">
+                            <input type="text" name="nom-prenom" placeholder="Prenom Nom" class="w-50 mb-5" required>
+                            <input type="text" name="mail" placeholder="Adresse Mail" class="w-50 mb-5" required>
+                        </div>
+                        <textarea name="message" placeholder="Message" class="w-100 mb-5" required></textarea>
                         <input type="submit" value="Envoyer" class="btn-primary">
                     </form>
                 </div>
 
-                <div class="w-30">
-                    <img class="img-fluid mb-3" src="images/Logo-3.jpg" alt="Logo La Plateforme">
-                    <h3>Navigation</h3>
+                <div class="w-25 w-70 text-center">
+                    <img class="img-fluid mb-5" src="images/Logo-3.jpg" alt="Logo La Plateforme">
                     <ul>
-                        <li><a href="accueil.html">Accueil</a></li>
-                        <li><a href="qui-sommes-nous.html">Qui sommes-nous</a></li>
-                        <li><a href="coding-school.html">Coding School</a></li>
-                        <li><a href="ai-school.html">AI School</a></li>
-                        <li><a href="cyber-security-school.html">Cyber Security School</a></li>
-                        <li><a href="executive-education.html">Executive Education</a></li>
-                        <li><a href="Innovation-Lab.html">Innovation Lab</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="accueil.html">ACCUEIL</a></li>
+                        <li><a href="qui-sommes-nous.html">QUI SOMMES NOUS</a></li>
+                        <li><a href="coding-school.html">CODING SCHOOL</a></li>
+                        <li><a href="ai-school.html">AI SCHOOL</a></li>
+                        <li><a href="cyber-security-school.html">CYBER SECURITY SCHOOL</a></li>
+                        <li><a href="executive-education.html">EXECUTIVE EDUCATION</a></li>
+                        <li><a href="Innovation-Lab.html">INNOVATION LAB</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
                     </ul>
                 </div>
 
-                <div class="w-20">
-                    <h3>Informations</h3>
+                <div class="w-25 w-70 text-center">
+                    <h3>Informations légales</h3>
                     <ul>
                         <li><a href="#">Mentions légales</a></li>
                         <li><a href="#">Politique de confidentialité</a></li>

@@ -13,7 +13,35 @@
     <header>
         <div class="container">
             <div class="row align-center flex-between header-bar">
-                <nav class="row w-100 align-center header-nav">
+
+                <!-- NAVIGATION MOBILE -->
+                <div class="logo-burger">
+                    <img src="images/logo-2.jpg" alt="Logo La Plateforme">
+                </div>
+
+                <input id="burger" type="checkbox" />
+
+                <label for="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <nav class="nav-mobile">
+                    <ul>
+                        <li><a href="accueil.html">Accueil</a></li>
+                        <li><a href="qui-sommes-nous.html">Qui sommes nous</a></li>
+                        <li><a href="coding-school.html">Coding School</a></li>
+                        <li><a href="ai-school.html">AI School</a></li>
+                        <li><a href="cyber-security-school.html">Cyber Security School</a></li>
+                        <li><a href="executive-education.html">Executive Education</a></li>
+                        <li><a href="Innovation-Lab.html">Innovation Lab</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+
+                <nav class="row w-100 align-center header-nav r-g-5">
                     <ul class="nav-left row">
                         <li><a href="accueil.html">ACCUEIL</a></li>
                         <li><a href="qui-sommes-nous.html">QUI SOMMES NOUS</a></li>
@@ -39,19 +67,27 @@
         </div>
     </header>
 
+
     <!-- CONTENU PRINCIPAL -->
     <main>
         <section class="mb-5">
             <div class="container">
                 <h1 class="section-title">Executive Education</h1>
-                <div class="row flex-between align-center">
-                    <div class="w-50 mb-5">
-                        <p>Le programme Executive Education de La Plateforme_ s'adresse aux professionnels, cadres et
-                            dirigeants souhaitant renforcer leurs compétences dans les domaines du numérique, de la
-                            stratégie et de l'innovation.</p>
-                        <p>Ces formations courtes et intensives s'adaptent aux enjeux des entreprises modernes et
-                            permettent une montée en compétences rapide.</p>
-                        <a href="#" class="btn-primary">Voir les formations disponibles</a>
+                <div class="row flex-between align-center text-center">
+                    <div class="w-50 mb-5 w-70">
+                        <div>
+                            <p>Le programme Executive Education de La Plateforme_ s'adresse aux professionnels, cadres
+                                et
+                                dirigeants souhaitant renforcer leurs compétences dans les domaines du numérique, de la
+                                stratégie et de l'innovation.</p>
+                            <p>Ces formations courtes et intensives s'adaptent aux enjeux des entreprises modernes et
+                                permettent une montée en compétences rapide.</p>
+                        </div>
+
+                        <div class="p-50">
+                            <a href="#" class="btn-primary">Voir les formations disponibles</a>
+                        </div>
+
                     </div>
                     <div class="w-50 mb-5">
                         <img src="images/3308.jpg" alt="Session Executive Education" class="img-fluid border">
@@ -63,16 +99,16 @@
         <section class="mb-5">
             <div class="container">
                 <h2 class="section-title">Domaines abordés</h2>
-                <div class="row flex-between responsive">
-                    <div class="w-25">
+                <div class="row flex-between responsive text-center">
+                    <div class="w-25 w-70">
                         <h3>Transformation digitale</h3>
                         <p>Adapter les organisations aux nouveaux usages numériques.</p>
                     </div>
-                    <div class="w-25">
+                    <div class="w-25 w-70">
                         <h3>Leadership</h3>
                         <p>Manager les équipes et conduire le changement efficacement.</p>
                     </div>
-                    <div class="w-25">
+                    <div class="w-25 w-70">
                         <h3>Innovation</h3>
                         <p>Développer une stratégie d'innovation durable et créative.</p>
                     </div>
@@ -85,7 +121,7 @@
     <footer>
         <div class="container">
             <div class="row flex-between align-start footer">
-                <div class="w-50">
+                <div class="w-50 w-70 text-center">
                     <h2>Une question ? Un renseignement ?</h2>
                     <form>
                         <div class="row">
@@ -97,7 +133,7 @@
                     </form>
                 </div>
 
-                <div class="w-25">
+                <div class="w-25 w-70 text-center">
                     <img class="img-fluid mb-5" src="images/Logo-3.jpg" alt="Logo La Plateforme">
                     <ul>
                         <li><a href="accueil.html">ACCUEIL</a></li>
@@ -111,7 +147,7 @@
                     </ul>
                 </div>
 
-                <div class="w-25">
+                <div class="w-25 w-70 text-center">
                     <h3>Informations légales</h3>
                     <ul>
                         <li><a href="#">Mentions légales</a></li>
